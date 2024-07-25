@@ -1,0 +1,170 @@
+﻿[
+	{
+		"file": "entities/humanoid/player",
+		"op": "add",
+		"path": "/client/animations/-",
+		"value": {
+			"code": "scswordhit",
+			"animation": "scswordhit",
+			"blendMode": "Add",
+			"animationSpeed": 1,
+			"attributes": {
+				"soundAtFrame": 5,
+				"damageAtFrame": 10,
+				"authorative": true
+			},
+			"elementWeight": {
+				"UpperArmR": 20,
+				"LowerArmR": 20,
+				"UpperArmL": 20,
+				"LowerArmL": 20
+			},
+			"elementBlendMode": {
+				"UpperArmR": "AddAverage",
+				"LowerArmR": "AddAverage",
+				"UpperArmL": "AddAverage",
+				"LowerArmL": "AddAverage"
+			}
+		}
+	},
+	{
+		"file": "entities/humanoid/player",
+		"op": "add",
+		"path": "/client/animations/-",
+		"value": {
+			"code": "scswordhit2",
+			"animation": "scswordhit2",
+			"blendMode": "Add",
+			"animationSpeed": 1,
+			"attributes": {
+				"soundAtFrame": 5,
+				"damageAtFrame": 10,
+				"authorative": true
+			},
+			"elementWeight": {
+				"UpperArmR": 20,
+				"LowerArmR": 20,
+				"UpperArmL": 20,
+				"LowerArmL": 20
+			},
+			"elementBlendMode": {
+				"UpperArmR": "AddAverage",
+				"LowerArmR": "AddAverage",
+				"UpperArmL": "AddAverage",
+				"LowerArmL": "AddAverage"
+			}
+		}
+	},
+	{
+		"file": "entities/humanoid/player",
+		"op": "add",
+		"path": "/client/animations/-",
+		"value": {
+			"code": "scfalx",
+			"animation": "scfalx",
+			"blendMode": "Add",
+			"animationSpeed": 1.3,
+			"attributes": {
+				"soundAtFrame": 8,
+				"damageAtFrame": 11,
+				"authorative": true
+			},
+			"elementWeight": {
+				"UpperArmR": 20,
+				"LowerArmR": 20,
+				"UpperArmL": 20,
+				"LowerArmL": 20
+			},
+			"elementBlendMode": {
+				"UpperArmR": "AddAverage",
+				"LowerArmR": "AddAverage",
+				"UpperArmL": "AddAverage",
+				"LowerArmL": "AddAverage"
+			}
+		}
+	},
+	{
+		"file": "entities/humanoid/player",
+		"op": "add",
+		"path": "/client/animations/-",
+		"value": {
+			"code": "scfalx2",
+			"animation": "scfalx2",
+			"blendMode": "Add",
+			"animationSpeed": 1.3,
+			"attributes": {
+				"soundAtFrame": 8,
+				"damageAtFrame": 11,
+				"authorative": true
+			},
+			"elementWeight": {
+				"UpperArmR": 20,
+				"LowerArmR": 20,
+				"UpperArmL": 20,
+				"LowerArmL": 20
+			},
+			"elementBlendMode": {
+				"UpperArmR": "AddAverage",
+				"LowerArmR": "AddAverage",
+				"UpperArmL": "AddAverage",
+				"LowerArmL": "AddAverage"
+			}
+		}
+	},
+	{
+		"file": "entities/humanoid/player",
+		"op": "add",
+		"path": "/client/animations/-",
+		"value": {
+			"code": "scspearhit",
+			"animation": "scspearhit",
+			"blendMode": "Add",
+			"animationSpeed": 1.3,
+			"attributes": {
+				"soundAtFrame": 5,
+				"damageAtFrame": 10,
+				"authorative": true
+			},
+			"elementWeight": {
+				"UpperArmR": 20,
+				"LowerArmR": 20,
+				"UpperArmL": 20,
+				"LowerArmL": 20
+			},
+			"elementBlendMode": {
+				"UpperArmR": "AddAverage",
+				"LowerArmR": "AddAverage",
+				"UpperArmL": "AddAverage",
+				"LowerArmL": "AddAverage"
+			}
+		}
+	},
+	{
+		"file": "entities/humanoid/player",
+		"op": "add",
+		"path": "/client/animations/-",
+		"value": {
+			"code": "scspearhit2",
+			"animation": "scspearhit2",
+			"blendMode": "Add",
+			"animationSpeed": 1.3,
+			"attributes": {
+				"soundAtFrame": 5,
+				"damageAtFrame": 10,
+				"authorative": true
+			},
+			"elementWeight": {
+				"UpperArmR": 20,
+				"LowerArmR": 20,
+				"UpperArmL": 20,
+				"LowerArmL": 20
+			},
+			"elementBlendMode": {
+				"UpperArmR": "AddAverage",
+				"LowerArmR": "AddAverage",
+				"UpperArmL": "AddAverage",
+				"LowerArmL": "AddAverage"
+			}
+		}
+	}
+]

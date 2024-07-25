@@ -1,0 +1,27 @@
+﻿[
+	{
+		"file": "itemtypes/tool/blade", "path": "/behaviors/1", "op": "replace",
+		"value": {
+			"name": "AnimationSimpleCombos",
+			"properties": {
+				"combosByType": {
+					// all falx weapons
+					"blade-falx-*": [
+						{"animation": "scfalx", "attackPowerMultiplier": 1, "attackRangeMultiplier": 1},
+						{"animation": "scfalx2", "attackPowerMultiplier": 1, "attackRangeMultiplier": 1}
+					],
+					// estoc, blackguard shortsword, and scrap blade weapons
+					"*": [
+						{"animation": "scswordhit", "attackPowerMultiplier": 0.8, "attackRangeMultiplier": 1},
+						{"animation": "scswordhit2", "attackPowerMultiplier": 0.8, "attackRangeMultiplier": 1},
+						{"animation": "scspearhit", "attackPowerMultiplier": 1.1, "attackRangeMultiplier": 1.2}
+					]
+				}
+			}
+		}
+	},
+	{
+		"file": "itemtypes/tool/blade", "path": "/class", "op": "add",
+		"value": "ItemSimpleCombos"
+	}
+]

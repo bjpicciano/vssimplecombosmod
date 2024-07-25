@@ -1,0 +1,18 @@
+﻿[
+	{
+		"file": "itemtypes/tool/spear", "path": "/behaviors/1", "op": "replace",
+		"value": {
+			"name": "AnimationSimpleCombos",
+			"properties": {
+				"combos": [
+					{"animation": "scspearhit", "attackPowerMultiplier": 1, "attackRangeMultiplier": 1},
+					{"animation": "scspearhit2", "attackPowerMultiplier": 1, "attackRangeMultiplier": 1}
+				]
+			}
+		}
+	},
+	{
+		"file": "itemtypes/tool/spear", "path": "/class", "op": "replace",
+		"value": "ItemSimpleCombos"
+	}
+]

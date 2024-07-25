@@ -1,0 +1,50 @@
+﻿{
+	"enabled": false,
+	"code": "armingsword",
+	"class": "ItemSimpleCombos",
+	"damagedby": ["attacking"],
+	"tool": "sword",
+	"behaviors": [
+		{
+			"name": "AnimationSimpleCombos",
+			"properties": {
+				"combos": [
+					{"animation": "scswordhit", "attackPowerMultiplier": 1, "attackRangeMultiplier": 1},
+					{"animation": "scswordhit2", "attackPowerMultiplier": 1, "attackRangeMultiplier": 1},
+					{"animation": "scspearhit", "attackPowerMultiplier": 1.2, "attackRangeMultiplier": 1.2}
+				]
+			}
+		}
+	],
+	"shape": { "base": "item/weapon/armingsword" },
+	"textures": {
+		"0": { "base": "item/weapon/sword" }
+	},
+	"attackPower": 2.5,
+	"attackRange": 2.5,
+	"durability": 150,
+	"creativeinventory": { "general": ["*"], "items": ["*"], "tools": ["*"] },
+	"guiTransform": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": -89, "y": 47, "z": 44 },
+		"origin": { "x": 0.65, "y": 0, "z": 0.47 },
+		"scale": 1.8
+	},
+	"fpHandTransform": {
+		"translation": { "x": -0.2, "y": -0.2, "z": 0 },
+		"rotation": { "x": 15, "y": 15, "z": 90 },
+		"scale": 2.45
+	},
+	"tpHandTransform": {
+		"translation": { "x": -1.085, "y": 0.05, "z": -0.575 },
+		"rotation": { "x": -90, "y": 0, "z": 0 },
+		"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+		"scale": 0.8
+	},
+	"groundTransform": {
+		"translation": { "x": 0, "y": 0.05, "z": 0 },
+		"rotation": { "x": 180, "y": 0, "z": 0 },
+		"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+		"scale": 3.5
+	}
+}

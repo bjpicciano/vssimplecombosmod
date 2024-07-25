@@ -1,0 +1,22 @@
+{
+  "profiles": {
+    "Client 1": {
+      "commandName": "Executable",
+      "executablePath": "$(VINTAGE_STORY)/Vintagestory.exe",
+      "commandLineArgs": "--openWorld=\"modsamplestest\" --tracelog --addModPath \"$(ProjectDir)/bin/$(Configuration)/Mods\"",
+      "workingDirectory": "$(VINTAGE_STORY)"
+    },
+    "Client 2": {
+      "commandName": "Executable",
+      "executablePath": "$(VINTAGE_STORY)/Vintagestory.exe",
+      "commandLineArgs": "--openWorld=\"modsamplestest\" --tracelog --addModPath \"$(ProjectDir)/bin/$(Configuration)/Mods\" --dataPath \"C:/Users/bjpic/AppData/Roaming/VintagestoryData2\"",
+      "workingDirectory": "$(VINTAGE_STORY)"
+    },
+    "Server": {
+      "commandName": "Executable",
+      "executablePath": "$(VINTAGE_STORY)/VintagestoryServer.exe",
+      "commandLineArgs": "--tracelog --addModPath \"$(ProjectDir)/bin/$(Configuration)/Mods\"",
+      "workingDirectory": "$(VINTAGE_STORY)"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+﻿[
+	{
+		"file": "itemtypes/tool/club", "path": "/behaviors/1", "op": "replace",
+		"value": {
+			"name": "AnimationSimpleCombos",
+			"properties": {
+				"combos": [
+					{"animation": "scswordhit", "attackPowerMultiplier": 1.33, "attackRangeMultiplier": 1},
+					{"animation": "scswordhit2", "attackPowerMultiplier": 1.33, "attackRangeMultiplier": 1}
+				]
+			}
+		}
+	},
+	{
+		"file": "itemtypes/tool/club", "path": "/class", "op": "add",
+		"value": "ItemSimpleCombos"
+	}
+]

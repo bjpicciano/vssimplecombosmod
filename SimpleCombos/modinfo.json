@@ -1,0 +1,11 @@
+{
+    "type": "code",
+    "modid": "simplecombos",
+    "name": "SimpleCombos",
+    "description": "Make combat more dynamic with combos",
+    "version": "1.0.1",
+    "authors": ["Grubs"],
+    "dependencies": {
+        "game": "1.19.8"
+    }
+}
