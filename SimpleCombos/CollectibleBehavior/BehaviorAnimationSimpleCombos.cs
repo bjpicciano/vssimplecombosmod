@@ -1,6 +1,4 @@
-﻿using System.Diagnostics;
-using System.Numerics;
-using Vintagestory.API.Client;
+﻿using Vintagestory.API.Client;
 using Vintagestory.API.Common;
 using Vintagestory.API.Common.Entities;
 using Vintagestory.API.Datastructures;
@@ -31,7 +29,7 @@ namespace SimpleCombos
         public override void Initialize(JsonObject properties)
         {
             base.Initialize(properties);
-            
+
             strikeSound = AssetLocation.Create(properties["strikeSound"].AsString("sounds/player/strike")/*, collObj.Code.Domain*/);
             combos = properties["combos"].AsArray<SimpleCombosProperty>();
         }

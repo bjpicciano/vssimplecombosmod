@@ -2,8 +2,8 @@
     "type": "code",
     "modid": "simplecombos",
     "name": "SimpleCombos",
-    "description": "Make combat more dynamic with combos",
-    "version": "1.0.1",
+    "description": "Make combat more dynamic with weapon combos",
+    "version": "1.0.2",
     "authors": ["Grubs"],
     "dependencies": {
         "game": "1.19.8"

@@ -13,6 +13,6 @@
 	},
 	{
 		"file": "itemtypes/tool/spear", "path": "/class", "op": "replace",
-		"value": "ItemSimpleCombos"
+		"value": "ItemSpearSimpleCombos"
 	}
 ]
